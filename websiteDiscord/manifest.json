@@ -1,0 +1,19 @@
+{
+    "name": "Website to Discord",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Url automatisch an einen Discord Server senden",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_icon": "images/icon.png",
+      "default_title": "Send URL to Discord"
+    },
+    "background": {
+      "service_worker": "scripts/service-worker.js",
+      "type": "module"
+    }
+  }
+  

@@ -14,6 +14,12 @@
     "background": {
       "service_worker": "scripts/service-worker.js",
       "type": "module"
+    },
+
+    "icons": {
+      "48" : "images/Discord_Uploader_Icon48x48.png",
+      "16" : "images/Icon16x16.png"
     }
+      
   }
   
